@@ -12,6 +12,6 @@ class FirebaseServiceProvider extends ServiceProvider
     }
     public function boot()
     {
-        dd('test-firebase');
+        dd('🖕🏻Fuck You Bitch🖕🏻');
     }
 }
