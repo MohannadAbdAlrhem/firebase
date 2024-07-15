@@ -1,0 +1,44 @@
+{
+    "name": "mouhannad/firebase",
+    "description": "Laravel Package ",
+    "type": "library",
+    "keywords": [
+        "mouhannad",
+        "laravel",
+        "firebase",
+        "filters",
+        "eloquent",
+        "package"
+    ],
+    "homepage": "https://github.com/MohannadAbdAlrhem/firebase",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MouhannadAbdAlrhem",
+            "email": "mouhannadabdalrhem@gmail.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouhannad\\Firebase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mouhannad\\QueryFilters\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mouhannad\\Firebase\\Providers\\FirebaseServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

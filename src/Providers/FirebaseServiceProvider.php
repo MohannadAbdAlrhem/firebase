@@ -1,5 +1,7 @@
 <?php
 
+namespace Mouhannad\Firebase\Providers;
+
 use Illuminate\Support\ServiceProvider;
 
 
