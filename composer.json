@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Mouhannad\\QueryFilters\\Tests\\": "tests/"
+            "Mouhannad\\Firebase\\Tests\\": "tests/"
         }
     },
     "extra": {
